@@ -1,13 +1,81 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color : rgb(244, 184, 193);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  max-width: 400px;
+  overflow: hidden;
+  border-radius: 4%;
+  background-color: #423f3f;
+  color: white;
+  box-shadow: 41px 26px 26px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+.image{
+  width: 400px;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0%;
+}
+
+.info-box{
+  text-align: center;
+}
+.info-box h1{
+  font-size: 35px;
+  margin-bottom: 0px;
+  margin-top: 1%;
+}
+.job-tittle{
+  margin-bottom: 4px;
+}
+.buttons button{
+  width: 100px;
+  height: 40px;
+  margin-inline: 40px;
+  border: none;
+  border-radius: 10%;
+  color: white;
+  letter-spacing: 0.1em;
+}
+.email-button{
+  background-color: rgb(0, 128, 255);
+}
+.linkedin-button{
+  background-color: rgb(118, 118, 223);
+}
+.about-info{
+  padding: 5%;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-bottom: 2;
+}
+.about-div{
+  margin-top: 2%;
+}
+.about{
+  margin-bottom: 0;
+}
+.interests{
+  margin-bottom: 1;
+}
+.contact-div{
+  background-color: #222;
+  padding: 4%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.contact-div button img{
+  background-color: black;
+}
+
+.job-tittle{
+  color: orange;
 }
